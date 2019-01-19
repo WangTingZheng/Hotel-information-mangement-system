@@ -1,6 +1,7 @@
-# Hotel-information-mangement-system-
+# Hotel-information-mangement-system
 Hotel information mangement system with c
-##工程环境
+![主界面](https://i.loli.net/2019/01/19/5c430eaf5927d.png)
+## 工程环境
 本工程使用codeblocks编写，要修改请使用codeblocks进行操作
 ## 特色功能
 ### 账号管理
