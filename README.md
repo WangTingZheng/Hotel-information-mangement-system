@@ -2,7 +2,7 @@
 Hotel information mangement system with c
 ![主界面](https://i.loli.net/2019/01/19/5c430eaf5927d.png)
 ## 一、工程环境
-本工程使用codeblocks编写，要修改请使用codeblocks进行操作
+本工程使用codeblocks编写，要修改请使用[codeblocks](https://blog.csdn.net/y_universe/article/details/78151998)进行操作
 ## 二、特色功能
 ### 一、账号管理
 账户信息储存在login_passenagers.txt里
