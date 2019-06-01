@@ -124,7 +124,7 @@ void menu()//主菜单
     toxy(40,11);
     printf("请输入一个1到3的数\n");
     page=1;
-	for(;;)
+	while(1)
 	{
 		if(!scanf("%d",&a))   //如果没有以%d的形式输入，scanf的返回值应该是0
 		{
@@ -141,7 +141,6 @@ void menu()//主菜单
    		}
 		if(a>0&&a<4)break;
 	}
-
 }
 void passenger_login()//用户登录
 {
@@ -153,7 +152,7 @@ void passenger_login()//用户登录
     char password_co[100];
     system("cls");
     printf("欢迎来到登陆系统！         \n");
-    for(;;)
+    while(1)
     {
         printf("请输入账号：\n");
         scanf("%s",username_co);
@@ -197,7 +196,7 @@ loop:     if(scanf("%d",&m))
             break;
         }
     }
-    for(;;)
+    while(1)
     {
         printf("请输入你的密码：\n");
         scanf("%s",password_co);
@@ -251,7 +250,7 @@ void shop_login()//店家登录
     char password_co[100];
     system("cls");
     printf("欢迎来到登陆系统！         \n");
-    for(;;)
+    while(1)
     {
         printf("请输入账号：\n");
         scanf("%s",username_co);
@@ -295,7 +294,7 @@ loop:     if(scanf("%d",&m))
             break;
         }
     }
-    for(;;)
+    while(1)
     {
         printf("请输入你的密码：\n");
         scanf("%s",password_co);
@@ -437,7 +436,7 @@ loopA:printf("欢迎来到旅店预订系统，选择你想要的酒店\n");
     printf("3.如家宾馆\n");
 	printf("4.回到主菜单\n");
 	printf("5.回到用户菜单\n");
-	for(;;)
+	while(1)
 	{
 		if(!scanf("%d",&i))
 		{
@@ -464,7 +463,7 @@ loopA:printf("欢迎来到旅店预订系统，选择你想要的酒店\n");
 	printf("4.回到主菜单            \n");
 	printf("5.回到用户菜单            \n");
 	printf("6.回到上一级           \n");
-	for(;;)
+	while(1)
 	{
 		if(!scanf("%d",&k))
 		{
@@ -485,7 +484,7 @@ loopA:printf("欢迎来到旅店预订系统，选择你想要的酒店\n");
 		if(k>0&&k<7)break;
 	}
 	printf("请输入楼层(1~3)：\n");
-	for(;;)
+	while(1)
 	{
 		if(!scanf("%d",&m))
 		{
@@ -688,7 +687,7 @@ void menu_pass()//用户登录后的菜单
 	printf("----------------------------------------------------------\n");
 	toxy(35,11);
 	printf("请输入一个1到4的数\n");
-	for(;;)
+	while(1)
 	{
 		if(!scanf("%d",&a))
 			{
@@ -746,7 +745,7 @@ void shop_menu()
 	toxy(35,8);
 	printf("----------------------------------------------------------\n");
 	printf("请输入一个1到2的数\n");
-	for(;;)
+	while(1)
 	{
 		if(!scanf("%d",&a))
 			{
@@ -768,7 +767,7 @@ void tuifang()
     int num;
     int z1=0;
     printf("请输入要退订的房间序号:\n");
-    for(;;)
+    while(1)
     {
         getchar();
         if(scanf("%d",&num))
@@ -814,7 +813,7 @@ void humingchaxun()
     }
     printf("===================================\n");
     printf("1.选择退房    2.返回上一级   3.退出程序\n");
-    for(;;)
+    while(1)
 	{
 		if(!scanf("%d",&a))   //如果没有以%d的形式输入，scanf的返回值应该是0
 		{
@@ -857,7 +856,7 @@ void chaxun()
     printf("================================\n");
     toxy(35,11);
     printf("请输入一个1到4的数\n");
-	for(;;)
+	while(1)
 	{
 		if(!scanf("%d",&a))
 			{
@@ -875,7 +874,6 @@ void chaxun()
 		}
 		if(a>0&&a<5)break;
 	}
-
 }
 void haomachaxun()
 {
@@ -884,7 +882,7 @@ void haomachaxun()
     char haoma[100]={'\0'};
     printf("                     类型     房间号     价格     面积      是否有窗     是否有浴室     是否有空调     楼层       酒店\n");
     fflush(stdin);
-    for(;;)
+    while(1)
     {
         printf("输入要查询的房间号：\n");
         scanf("%s",haoma);
@@ -907,7 +905,7 @@ void haomachaxun()
     }
    printf("===================================\n");
     printf("1.选择退房    2.返回上一级   3.退出程序\n");
-    for(;;)
+    while(1)
 	{
 		if(!scanf("%d",&a))   //如果没有以%d的形式输入，scanf的返回值应该是0
 		{
@@ -924,8 +922,6 @@ void haomachaxun()
    		}
 		if(a>0&&a<4)break;
 	}
-
-
 }
 
 
