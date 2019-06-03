@@ -1,5 +1,7 @@
 # Hotel-information-mangement-system
 Hotel information mangement system with c
+## 注意！
+本项目已经移植到vs2017，最近想完善杀系统，具体请看[这里](https://github.com/WangTingZheng/Hotel-information-mangement-system/tree/dev)
 ![主界面](https://i.loli.net/2019/01/19/5c430eaf5927d.png)
 ## 一、工程环境
 本工程使用codeblocks编写，要修改请使用[codeblocks](https://blog.csdn.net/y_universe/article/details/78151998)进行操作
